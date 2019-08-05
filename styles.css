@@ -1,0 +1,114 @@
+body{
+               
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    margin: 0;
+    padding: 0;
+ 
+}
+
+
+   header .mobile {
+        display: none;
+   }
+    
+
+/* HEADERS */
+
+header{
+    background-image: url(https://1.bp.blogspot.com/-BYbkmafZxeU/XUfTqqMb2MI/AAAAAAAAAJA/ve8OSKex2j8tMBsGl5lL-iFRgkMKz9tDACLcBGAs/s1600/cofee.jpg);
+    background-size: 100%; 
+    background-position: center;
+    padding: 20px;
+    height:400px;
+    text-align: center;
+}
+    ul 
+{
+    list-style-type: none;
+    margin: 0;
+
+}
+li{
+    margin-right: 20px;
+    display:inline-block;
+    font-size: 15px;
+
+}
+
+header a { 
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-top: 48px;
+}
+header .logo a{
+    background-image: url(https://1.bp.blogspot.com/-zn4NRBm_Hmk/XUfTsJpTCZI/AAAAAAAAAJM/X3EjPCig3OIZPJ8RXkqlbsbTcVIBrFVKACLcBGAs/s1600/logo.png);
+    background-size: 300px;
+    background-repeat: no-repeat;
+    position: relative;
+    top: -40px;
+
+   display:inline-block;
+   height: 80px;
+   text-indent: -999999px;
+   width: 300px;
+
+
+}
+/* Resopnsive header */
+@media screen and (max-width:830px) 
+{header .mobile {
+    display: inline-block;
+}
+header .desktop {
+    display:none;
+}
+
+}
+
+/* FEATURES */
+.feature { 
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 20px;
+    background: white; 
+    color: gray;
+  
+}
+.feature figure { 
+    margin: auto;
+    width: 400px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.feature figure img{
+    border: 1px solid  white;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    box-shadow: gray 0 0 10px;
+}
+div{ 
+    background-color: blue;
+    margin: auto;
+    width: 100px;
+   
+}
+/* Responsive Feature */
+/* @media screen and (max-width:660px){
+    .feature { 
+        display: block;
+    } */
+
+/* } */
+ /* FOORTER      */
+footer{
+    background:black;
+    color: gray;
+    padding: 20px;
+    text-align: center;
+    margin: 20px 20px;
+    font-size: 10px;
+}
